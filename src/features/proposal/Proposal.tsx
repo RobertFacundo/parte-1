@@ -21,7 +21,7 @@ const Proposal = () => {
                 "
                     initial="hidden"
                     whileInView="show"
-                    viewport={{  amount: 0.3 }}
+                    viewport={{once: true,  amount: 0.3 }}
                 >
 
                     <motion.div className="flex flex-col gap-6 w-full md:max-w-[500px] text-left"

@@ -35,7 +35,7 @@ const Services = () => {
                     variants={serviceGrid}
                     initial="hidden"
                     whileInView="show"
-                    viewport={{ amount: 0.2 }}
+                    viewport={{once: true, amount: 0.2 }}
                 >
                     {services.map((service, index) => (
                         <ServiceCard
