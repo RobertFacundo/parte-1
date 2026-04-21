@@ -5,7 +5,9 @@ import notion from './assets/logos/notion.png';
 import netflix from './assets/logos/netflix.png';
 import zoom from './assets/logos/zoom.png';
 
-export const logos = [
+import type { Logo } from "./types";
+
+export const logos: Logo[] = [
     { src: amazon, alt: "Amazon" },
     { src: dribbble, alt: "Dribbble" },
     { src: hubspot, alt: "Hubspot" },
