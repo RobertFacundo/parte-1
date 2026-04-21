@@ -9,7 +9,6 @@ const Hero = () => {
         <section className="py-10">
             <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
 
-                {/* Left */}
                 <motion.div className="flex flex-col gap-[24px] items-start max-w-[520px]"
                     variants={staggerContainer}
                     initial="hidden"
@@ -50,7 +49,6 @@ const Hero = () => {
                     </motion.button>
                 </motion.div>
 
-                {/* Right */}
                 <motion.div className="hidden md:flex justify-center"
                      variants={fadeIn}
                     initial="hidden"
