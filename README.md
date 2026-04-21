@@ -43,6 +43,9 @@ The development process remained fully controlled manually, with AI acting as an
 ---
 
 ## ⏱ Time Tracking
+
+📅 21/04/2026
+
 ### Session 1
 🕙 10:26 - 13:05  
 - Hero Section  
@@ -53,7 +56,13 @@ The development process remained fully controlled manually, with AI acting as an
 - Case Studies Section  
 - Proposal Section  
 - Responsive adjustments  
-- Framer Motion animations integration  
+- Framer Motion integration  
+
+---
+
+### 🧮 Total Time Spent
+
+⏳ ~5 hours 27 minutes total development time
 
 ---
 
