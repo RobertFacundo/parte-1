@@ -1,73 +1,78 @@
-# React + TypeScript + Vite
+# 🚀 Digital Marketing Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📄 Description
+This project is a fully responsive landing page built from a Figma design, focused on modern UI practices, clean component architecture, and smooth animations.  
+The goal was to simulate a real-world production workflow with scalable and reusable frontend patterns.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠 Tech Stack
+- ⚛️ React (Vite)
+- ⌨️ TypeScript
+- 🎨 Tailwind CSS
+- 🎬 Framer Motion
+- 🧩 Component-based architecture
+- 📱 Fully responsive design
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧠 Architecture & Approach
+The project was structured using a modular and scalable component system.  
+Each section was broken into isolated components with clear responsibilities (Hero, Services, Case Studies, Proposal).
 
-## Expanding the ESLint configuration
+A multi-level abstraction approach was used:
+- Layout-level composition (sections)
+- UI reusable components (cards, buttons, animations)
+- Shared utilities (animations, variants, constants)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+This ensured maintainability, readability, and scalability.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🤖 AI Implementation
+AI (ChatGPT) was used as a development assistant to:
+- Speed up syntax writing and boilerplate generation
+- Support component structuring decisions
+- Suggest animation patterns with Framer Motion
+- Help define responsive strategies and layout adjustments
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+The development process remained fully controlled manually, with AI acting as an accelerator rather than a decision-maker.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+*The most valuable contribution was improving development speed and consistency while keeping full architectural control.*
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ⏱ Time Tracking
+### Session 1
+🕙 10:26 - 13:05  
+- Hero Section  
+- Services Section  
+
+### Session 2
+🕑 14:18 - 16:43  
+- Case Studies Section  
+- Proposal Section  
+- Responsive adjustments  
+- Framer Motion animations integration  
+
+---
+
+## ✨ Key Highlights
+- Pixel-perfect Figma implementation
+- Responsive-first approach
+- Smooth entrance animations using Framer Motion
+- Clean component separation and reusability
+- Mobile-first interactions (horizontal scroll, marquee, etc.)
+
+---
+
+## 📬 Contact
+
+Feel free to reach out if you want to collaborate, have any questions, or just connect.
+
+- 📧 Email: frobertf.coder@gmail.com 
+- 💼 LinkedIn: [https://linkedin.com/in/your-profile ](https://www.linkedin.com/in/robertfacundodev/) 
+- 🌐 Portfolio: [https://your-portfolio.com ](https://facundorobert.vercel.app/) 
+- 💻 GitHub: https://github.com/RobertFacundo  
+
+---
