@@ -70,9 +70,9 @@ The development process remained fully controlled manually, with AI acting as an
 
 Feel free to reach out if you want to collaborate, have any questions, or just connect.
 
-- 📧 Email: frobertf.coder@gmail.com 
-- 💼 LinkedIn: [https://linkedin.com/in/your-profile ](https://www.linkedin.com/in/robertfacundodev/) 
-- 🌐 Portfolio: [https://your-portfolio.com ](https://facundorobert.vercel.app/) 
+- 📧 Email: robertf.coder@gmail.com 
+- 💼 LinkedIn: [https://www.linkedin.com/in/robertfacundodev/ ](https://www.linkedin.com/in/robertfacundodev/) 
+- 🌐 Portfolio: [https://facundorobert.vercel.app/ ](https://facundorobert.vercel.app/) 
 - 💻 GitHub: https://github.com/RobertFacundo  
 
 ---
